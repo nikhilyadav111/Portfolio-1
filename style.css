@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.conatiner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    width: 30%;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.navbar h1{
+    font-size: 35px;
+    color: #0BCEAF;
+}
+.navbar button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #0BCEAF;
+    background-color: white;
+    border-color: #0BCEAF;
+    
+}
+.home-part{
+    width:100%;
+    height: auto;
+    background-image: url('./leone-venter-VieM9BdZKFo-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.left img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+ .left {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+.right{
+    width: 50%;
+    height: auto;
+    /* line-height: 55px; */
+   
+   
+    
+}  
+
+.right button{
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: #0BCEAF;
+    color:black;
+    border-color: black;
+}
+.right button:hover{
+    background-color: green;
+}
+
+
+
+
+.right h1{
+    font-size: 45px;
+    color:black;
+}
+.right h3{
+    font-size: 25px;
+    color:black;
+}
+.right h2{
+    font-size: 35px;
+    color: #0BCEAF;
+    
+}
+/* .right i{
+    text-decoration: double;
+    color: red;
+} */
+
+.right i:hover{
+    color: white;
+}
+.right span{
+    display: flex;
+   align-items: center;
+   
+}
+/* 
+about-me */
+.about-me{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('./blue-toned-collection-paper-sheets-with-copy-space_23-2148320445.jpg');
+   background-position: center;
+   background-size: cover;
+}
+.lft img {
+    width: 350px;
+    height: auto;
+  
+  
+}
+.lft {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.rit{
+    width: 50%;
+    height: auto;
+    padding-inline: 30px;
+   
+   
+}
+.rit h2{
+    padding-block: 20px;
+   
+}
+.parent-1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.rit button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #0BCEAF;
+}
+.text-1 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.text-1 hr{
+    width: 300px;
+    height: 9px;
+    border: none;
+    background-color: #0BCEAF;
+}
+
+/* .skill */
+.skill{
+    width: 100%;
+    height: 60vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./modern-office-desk-composition-with-technological-device_23-2147916715.avif');
+}
+.text-2 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.text-2 hr{
+    width: 300px;
+    height: 9px;
+    border: none;
+    background-color: red;
+}
+.lft-skill{
+    width: 40%;
+    height: auto;
+  
+    
+}
+.rit-skill{
+    width: 40%;
+    height: auto;
+   
+}
+.box-1{
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    background-color:green;
+}
+.box-2{
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    background-color:red;
+}
+
+
+/* portfolio */
+.portfolio{
+    width: 100%;
+    height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  padding-block: 30px;
+  background-image: url('./8115097-empty-business-cards.jpg');
+  background-position: center;
+  background-size: cover;
+    
+
+}
+.text-3 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.text-3 hr{
+    width: 300px;
+    height: 9px;
+    border: none;
+    background-color: grey;
+}
+.up{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+    
+}
+.down{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    width: 30%;
+    height: auto;
+   
+   
+  
+}
+.box img{
+    width: 250px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+/* contact */
+.contact{
+    width: 100%;
+    height: 88vh;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./blue-toned-set-paper-sheets-with-copy-space_23-2148320447.jpg');
+}
+
+.text-4 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.text-4 hr{
+    width: 300px;
+    height: 9px;
+    border: none;
+    background-color: red;
+}
+.con-right{
+    width: 50%;
+    height: auto;
+  
+   
+   
+}
+.form-text{
+
+    height: 350px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.con-right form{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.form-text input{
+
+width: 100px;
+height: 40px;
+font-size: 20px;
+border-radius: 20px;
+padding-inline: 20px;
+
+
+}
+
+
+
+.contact button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+@media(max-width:786px){
+    .conatiner{
+        width: 100%;
+        height: auto;
+       
+    }
+    .navbar{
+        width: 100%;
+        height: auto;
+        position: sticky;
+        top: 0;
+
+       
+    }
+    .navbar ul{
+        display: none;
+    }
+    .home-part{
+        width: 100%;
+        height:88vh;
+        flex-direction: column;
+    }
+    
+
+    .left{
+        display: none;
+    }
+    .text-1 hr{
+        width: 150px;
+        height: 5px;
+    }
+    .about-me{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        
+    }
+    .lft img{
+        margin-top: 30px;
+    }
+    .rit{
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+    }
+    
+    .skill{
+     width: 100%;
+     height: 50vh;
+    }
+    .text-2 hr{
+        width: 150px;
+        height: 5px;
+    }
+    .portfolio{
+        width: 100%;
+        height: auto;
+       
+    }
+
+    .text-3 hr{
+        width: 150px;
+        height: 5px;
+    }
+    .up{
+        width: 100%;
+        height: auto;
+       
+    }
+    .box{
+       width: 30%;
+       height: auto;
+    }
+    .box img{
+        width: 200px;
+        height: auto;
+    }
+    .down{
+        width: 100%;
+        height: auto;
+    }
+    .text-4 hr{
+        width: 150px;
+        height: 5px;
+    }
+    .text-4{
+        width: 100%;
+        height: auto;
+    }
+    .text-4 h3{
+        font-size: 20px;
+    }
+    .contact{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .con-left{
+
+        width: 50%;
+        height: auto;
+        padding-block: 30px;
+    }
+    .con-right{
+        width: 100%;
+        height: auto;
+        padding-block: 30px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
